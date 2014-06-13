@@ -15,4 +15,8 @@
 	// Insert code here to initialize your application
 }
 
+- (void)awakeFromNib {
+	[self.webView.mainFrame loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.heise.de"]]];
+}
+
 @end
