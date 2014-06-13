@@ -18,6 +18,7 @@
 		D5F75C87194B103700C538D3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F75C66194B103700C538D3 /* Cocoa.framework */; };
 		D5F75C8F194B103700C538D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5F75C8D194B103700C538D3 /* InfoPlist.strings */; };
 		D5F75C91194B103700C538D3 /* AppSandboxQuickStartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F75C90194B103700C538D3 /* AppSandboxQuickStartTests.m */; };
+		D5F75C9B194B11BA00C538D3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F75C9A194B11BA00C538D3 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		D5F75C8C194B103700C538D3 /* AppSandboxQuickStartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppSandboxQuickStartTests-Info.plist"; sourceTree = "<group>"; };
 		D5F75C8E194B103700C538D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5F75C90194B103700C538D3 /* AppSandboxQuickStartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppSandboxQuickStartTests.m; sourceTree = "<group>"; };
+		D5F75C9A194B11BA00C538D3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F75C9B194B11BA00C538D3 /* WebKit.framework in Frameworks */,
 				D5F75C67194B103700C538D3 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +98,7 @@
 		D5F75C65194B103700C538D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D5F75C9A194B11BA00C538D3 /* WebKit.framework */,
 				D5F75C66194B103700C538D3 /* Cocoa.framework */,
 				D5F75C85194B103700C538D3 /* XCTest.framework */,
 				D5F75C68194B103700C538D3 /* Other Frameworks */,
