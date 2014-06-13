@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5F75C67194B103700C538D3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F75C66194B103700C538D3 /* Cocoa.framework */; };
+		D5F75C71194B103700C538D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5F75C6F194B103700C538D3 /* InfoPlist.strings */; };
+		D5F75C73194B103700C538D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F75C72194B103700C538D3 /* main.m */; };
+		D5F75C77194B103700C538D3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D5F75C75194B103700C538D3 /* Credits.rtf */; };
+		D5F75C7A194B103700C538D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F75C79194B103700C538D3 /* AppDelegate.m */; };
+		D5F75C7D194B103700C538D3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5F75C7B194B103700C538D3 /* MainMenu.xib */; };
+		D5F75C7F194B103700C538D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F75C7E194B103700C538D3 /* Images.xcassets */; };
+		D5F75C86194B103700C538D3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F75C85194B103700C538D3 /* XCTest.framework */; };
+		D5F75C87194B103700C538D3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F75C66194B103700C538D3 /* Cocoa.framework */; };
+		D5F75C8F194B103700C538D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5F75C8D194B103700C538D3 /* InfoPlist.strings */; };
+		D5F75C91194B103700C538D3 /* AppSandboxQuickStartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F75C90194B103700C538D3 /* AppSandboxQuickStartTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5F75C88194B103700C538D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5F75C5B194B103700C538D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5F75C62194B103700C538D3;
+			remoteInfo = AppSandboxQuickStart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5F75C63194B103700C538D3 /* AppSandboxQuickStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppSandboxQuickStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F75C66194B103700C538D3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D5F75C69194B103700C538D3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D5F75C6A194B103700C538D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D5F75C6B194B103700C538D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D5F75C6E194B103700C538D3 /* AppSandboxQuickStart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppSandboxQuickStart-Info.plist"; sourceTree = "<group>"; };
+		D5F75C70194B103700C538D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5F75C72194B103700C538D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5F75C74194B103700C538D3 /* AppSandboxQuickStart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppSandboxQuickStart-Prefix.pch"; sourceTree = "<group>"; };
+		D5F75C76194B103700C538D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D5F75C78194B103700C538D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5F75C79194B103700C538D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5F75C7C194B103700C538D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D5F75C7E194B103700C538D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5F75C84194B103700C538D3 /* AppSandboxQuickStartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppSandboxQuickStartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F75C85194B103700C538D3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D5F75C8C194B103700C538D3 /* AppSandboxQuickStartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppSandboxQuickStartTests-Info.plist"; sourceTree = "<group>"; };
+		D5F75C8E194B103700C538D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5F75C90194B103700C538D3 /* AppSandboxQuickStartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppSandboxQuickStartTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5F75C60194B103700C538D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F75C67194B103700C538D3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F75C81194B103700C538D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F75C87194B103700C538D3 /* Cocoa.framework in Frameworks */,
+				D5F75C86194B103700C538D3 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5F75C5A194B103700C538D3 = {
+			isa = PBXGroup;
+			children = (
+				D5F75C6C194B103700C538D3 /* AppSandboxQuickStart */,
+				D5F75C8A194B103700C538D3 /* AppSandboxQuickStartTests */,
+				D5F75C65194B103700C538D3 /* Frameworks */,
+				D5F75C64194B103700C538D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5F75C64194B103700C538D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5F75C63194B103700C538D3 /* AppSandboxQuickStart.app */,
+				D5F75C84194B103700C538D3 /* AppSandboxQuickStartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5F75C65194B103700C538D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5F75C66194B103700C538D3 /* Cocoa.framework */,
+				D5F75C85194B103700C538D3 /* XCTest.framework */,
+				D5F75C68194B103700C538D3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5F75C68194B103700C538D3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5F75C69194B103700C538D3 /* AppKit.framework */,
+				D5F75C6A194B103700C538D3 /* CoreData.framework */,
+				D5F75C6B194B103700C538D3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D5F75C6C194B103700C538D3 /* AppSandboxQuickStart */ = {
+			isa = PBXGroup;
+			children = (
+				D5F75C78194B103700C538D3 /* AppDelegate.h */,
+				D5F75C79194B103700C538D3 /* AppDelegate.m */,
+				D5F75C7B194B103700C538D3 /* MainMenu.xib */,
+				D5F75C7E194B103700C538D3 /* Images.xcassets */,
+				D5F75C6D194B103700C538D3 /* Supporting Files */,
+			);
+			path = AppSandboxQuickStart;
+			sourceTree = "<group>";
+		};
+		D5F75C6D194B103700C538D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5F75C6E194B103700C538D3 /* AppSandboxQuickStart-Info.plist */,
+				D5F75C6F194B103700C538D3 /* InfoPlist.strings */,
+				D5F75C72194B103700C538D3 /* main.m */,
+				D5F75C74194B103700C538D3 /* AppSandboxQuickStart-Prefix.pch */,
+				D5F75C75194B103700C538D3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5F75C8A194B103700C538D3 /* AppSandboxQuickStartTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5F75C90194B103700C538D3 /* AppSandboxQuickStartTests.m */,
+				D5F75C8B194B103700C538D3 /* Supporting Files */,
+			);
+			path = AppSandboxQuickStartTests;
+			sourceTree = "<group>";
+		};
+		D5F75C8B194B103700C538D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5F75C8C194B103700C538D3 /* AppSandboxQuickStartTests-Info.plist */,
+				D5F75C8D194B103700C538D3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5F75C62194B103700C538D3 /* AppSandboxQuickStart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F75C94194B103700C538D3 /* Build configuration list for PBXNativeTarget "AppSandboxQuickStart" */;
+			buildPhases = (
+				D5F75C5F194B103700C538D3 /* Sources */,
+				D5F75C60194B103700C538D3 /* Frameworks */,
+				D5F75C61194B103700C538D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppSandboxQuickStart;
+			productName = AppSandboxQuickStart;
+			productReference = D5F75C63194B103700C538D3 /* AppSandboxQuickStart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5F75C83194B103700C538D3 /* AppSandboxQuickStartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F75C97194B103700C538D3 /* Build configuration list for PBXNativeTarget "AppSandboxQuickStartTests" */;
+			buildPhases = (
+				D5F75C80194B103700C538D3 /* Sources */,
+				D5F75C81194B103700C538D3 /* Frameworks */,
+				D5F75C82194B103700C538D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5F75C89194B103700C538D3 /* PBXTargetDependency */,
+			);
+			name = AppSandboxQuickStartTests;
+			productName = AppSandboxQuickStartTests;
+			productReference = D5F75C84194B103700C538D3 /* AppSandboxQuickStartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5F75C5B194B103700C538D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rainer Semma";
+				TargetAttributes = {
+					D5F75C83194B103700C538D3 = {
+						TestTargetID = D5F75C62194B103700C538D3;
+					};
+				};
+			};
+			buildConfigurationList = D5F75C5E194B103700C538D3 /* Build configuration list for PBXProject "AppSandboxQuickStart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5F75C5A194B103700C538D3;
+			productRefGroup = D5F75C64194B103700C538D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5F75C62194B103700C538D3 /* AppSandboxQuickStart */,
+				D5F75C83194B103700C538D3 /* AppSandboxQuickStartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5F75C61194B103700C538D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F75C71194B103700C538D3 /* InfoPlist.strings in Resources */,
+				D5F75C7F194B103700C538D3 /* Images.xcassets in Resources */,
+				D5F75C77194B103700C538D3 /* Credits.rtf in Resources */,
+				D5F75C7D194B103700C538D3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F75C82194B103700C538D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F75C8F194B103700C538D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5F75C5F194B103700C538D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F75C7A194B103700C538D3 /* AppDelegate.m in Sources */,
+				D5F75C73194B103700C538D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F75C80194B103700C538D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F75C91194B103700C538D3 /* AppSandboxQuickStartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5F75C89194B103700C538D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5F75C62194B103700C538D3 /* AppSandboxQuickStart */;
+			targetProxy = D5F75C88194B103700C538D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5F75C6F194B103700C538D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F75C70194B103700C538D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D5F75C75194B103700C538D3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F75C76194B103700C538D3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D5F75C7B194B103700C538D3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F75C7C194B103700C538D3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D5F75C8D194B103700C538D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F75C8E194B103700C538D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5F75C92194B103700C538D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D5F75C93194B103700C538D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D5F75C95194B103700C538D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppSandboxQuickStart/AppSandboxQuickStart-Prefix.pch";
+				INFOPLIST_FILE = "AppSandboxQuickStart/AppSandboxQuickStart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D5F75C96194B103700C538D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppSandboxQuickStart/AppSandboxQuickStart-Prefix.pch";
+				INFOPLIST_FILE = "AppSandboxQuickStart/AppSandboxQuickStart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D5F75C98194B103700C538D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AppSandboxQuickStart.app/Contents/MacOS/AppSandboxQuickStart";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppSandboxQuickStart/AppSandboxQuickStart-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AppSandboxQuickStartTests/AppSandboxQuickStartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D5F75C99194B103700C538D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AppSandboxQuickStart.app/Contents/MacOS/AppSandboxQuickStart";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppSandboxQuickStart/AppSandboxQuickStart-Prefix.pch";
+				INFOPLIST_FILE = "AppSandboxQuickStartTests/AppSandboxQuickStartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5F75C5E194B103700C538D3 /* Build configuration list for PBXProject "AppSandboxQuickStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F75C92194B103700C538D3 /* Debug */,
+				D5F75C93194B103700C538D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F75C94194B103700C538D3 /* Build configuration list for PBXNativeTarget "AppSandboxQuickStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F75C95194B103700C538D3 /* Debug */,
+				D5F75C96194B103700C538D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5F75C97194B103700C538D3 /* Build configuration list for PBXNativeTarget "AppSandboxQuickStartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F75C98194B103700C538D3 /* Debug */,
+				D5F75C99194B103700C538D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5F75C5B194B103700C538D3 /* Project object */;
+}
