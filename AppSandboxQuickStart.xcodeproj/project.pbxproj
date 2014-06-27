@@ -32,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D5DE3428195849DA0050E06F /* AppSandboxQuickStart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AppSandboxQuickStart.entitlements; sourceTree = "<group>"; };
 		D5F75C63194B103700C538D3 /* AppSandboxQuickStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppSandboxQuickStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F75C66194B103700C538D3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D5F75C69194B103700C538D3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -119,6 +120,7 @@
 		D5F75C6C194B103700C538D3 /* AppSandboxQuickStart */ = {
 			isa = PBXGroup;
 			children = (
+				D5DE3428195849DA0050E06F /* AppSandboxQuickStart.entitlements */,
 				D5F75C78194B103700C538D3 /* AppDelegate.h */,
 				D5F75C79194B103700C538D3 /* AppDelegate.m */,
 				D5F75C7B194B103700C538D3 /* MainMenu.xib */,
@@ -205,6 +207,14 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Rainer Semma";
 				TargetAttributes = {
+					D5F75C62194B103700C538D3 = {
+						DevelopmentTeam = 8DP7YP837J;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
 					D5F75C83194B103700C538D3 = {
 						TestTargetID = D5F75C62194B103700C538D3;
 					};
@@ -389,11 +399,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppSandboxQuickStart/AppSandboxQuickStart.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppSandboxQuickStart/AppSandboxQuickStart-Prefix.pch";
 				INFOPLIST_FILE = "AppSandboxQuickStart/AppSandboxQuickStart-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -402,11 +416,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppSandboxQuickStart/AppSandboxQuickStart.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppSandboxQuickStart/AppSandboxQuickStart-Prefix.pch";
 				INFOPLIST_FILE = "AppSandboxQuickStart/AppSandboxQuickStart-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +488,7 @@
 				D5F75C96194B103700C538D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5F75C97194B103700C538D3 /* Build configuration list for PBXNativeTarget "AppSandboxQuickStartTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +497,7 @@
 				D5F75C99194B103700C538D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
